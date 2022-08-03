@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--Fontaweome-->
+    <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/fd9fe69d4b.js" crossorigin="anonymous"></script>
 
     <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
-    <title>PlatFind 🔍</title>
+    <title>My library - Platfind</title>
+
 </head>
+
 <body>
     <header class="header">
         <div class="header__title">
-            <a href="index.html" class="header__title-link"><h1 class="header__title-text">PlatFind</h1></a>
+            <a href="../index.html" class="header__title-link"><h1 class="header__title-text">PlatFind</h1></a>
         </div>
         <div class="header__library">
-            <a href="pages/library.html" class="header__library-link">My library</a>
+            <a href="library.html" class="header__library-link">My library</a>
         </div>
         <div class="header__searchbox">
             <h2 class="header__searchbox-title-text">Find your favourite series or movie on Platfind</h2>
@@ -34,17 +36,15 @@
         <!--add slider-->
     </header>
     <main>
-        <div id="result"></div>
+        <div id="saved">
+        </div>
     </main>
-    <section class="recommendedMovies">
-        <div id="movie" class="movie"></div>
-    </section>
     <footer class="footer">
         <div class="footer__container">
             <ul class="footer__list">
-                <li class="footer__list-item">Terms and Conditions</li>
-                <li class="footer__list-item">Blog</li>
-                <li class="footer__list-item">Work with us</li>
+                <li class="footer__list-item">Terminos y condiciones</li>
+                <li class="footer__list-item">Novedades</li>
+                <li class="footer__list-item">Trabaja con nosotros</li>
             </ul>
         </div>
     </footer>
@@ -54,6 +54,7 @@
     <!-- Sweet Alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Mi script -->
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>

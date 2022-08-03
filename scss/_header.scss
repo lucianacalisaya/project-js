@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        text-align: center;
+        &-link {
+            text-decoration: none;
+        }
+        &-text {
+            color: $main-color;
+            font-family: $main-font;
+        }
+    }
+    &__library {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        &-link {
+            text-decoration: none;
+            padding: 0.5rem;
+            background-color: $secundary-color;
+            color: black;
+            font-family: $secundary-font;
+        }
+    }
+    &__searchbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        &-title-text {
+            color: $main-color;
+            font-family: $secundary-font;
+        }
+        &-text {
+            width: 85%;
+            height: 2rem;
+            padding: 0.25rem 0;
+        }
+        &-submit {
+            background-color: $secundary-color;
+            color: black;
+            height: 2rem;
+            padding: 0.25rem;
+        }
+    }
+}

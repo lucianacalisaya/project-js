@@ -1,0 +1,72 @@
+{
+    "platforms": [{
+            "id": 1,
+            "platformName": "Netflix"
+        },
+        {
+            "id": 2,
+            "platformName": "HBO Max"
+        },
+        {
+            "id": 3,
+            "platformName": "Disney+"
+        },
+        {
+            "id": 4,
+            "platformName": "Star+"
+        },
+        {
+            "id": 5,
+            "platformName": "Paramount"
+        },
+        {
+            "id": 6,
+            "platformName": "Amazon Prime"
+        },
+        {
+            "id": 7,
+            "platformName": "No disponible"
+        }
+    ],
+    "movies": [{
+            "id": 1,
+            "title": "The Avengers",
+            "genre": "Action, Sciente fiction",
+            "duration": 143,
+            "director": "Joss Whedon",
+            "cast": "Robert Downey Jr., Chris Evans, Jeremy Renner, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Tom Hiddleston",
+            "platform": "Netflix, HBO Max, Disney+ y Amazon Prime",
+            "poster": "img/avengers.jfif"
+        },
+        {
+            "id": 2,
+            "title": "Mean Girls",
+            "genre": "Comedy",
+            "duration": 97,
+            "director": "Mark Waters",
+            "cast": "Lindsay Lohan, Rachel McAdams, Tim Meadows, Amy Poehler, Ana Gasteyer, Lacey Chabert, Lizzy Caplan",
+            "platform": "Amazon Prime",
+            "poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b84743ca1afb9f79a776158d131fd6c607e4b5d12f9fd24bd7432b763f0813d6._UR1920,1080_RI_UX400_UY225_.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Hobbit: An Unexpected Journey",
+            "genre": "Adventure, Epic Fantasy",
+            "duration": 169,
+            "director": "Peter Jackson",
+            "cast": "Ian Mckellen, Martin Freeman, Richard Armitage, James Nesbitt, Ken Stott, Sylvester McCoy, Barry Humphries",
+            "platform": "No disponible",
+            "poster": "https://occ-0-5398-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaGiUxboWTvCJCUGJBACMq4JKwFcC_o0Xn9WPkN96f0jumA13_G0pXGzJMvvUSXY1lvIrTUnglloYFQfdFzeJGM6Ts_Q.webp?r=55d"
+        },
+        {
+            "id": 4,
+            "title": "Charlie and the Chocolate Factory",
+            "genre": "Adventure, Comedy",
+            "duration": 115,
+            "director": "Tim Burton",
+            "cast": "Johnny Depp, Freddie Highmore, David Kelly, Helena Bonham Carter, Noah Taylor, Missi Pyle, James Fox",
+            "platform": "HBO Max",
+            "poster": "img/charlie.jfif"
+        }
+    ]
+}
